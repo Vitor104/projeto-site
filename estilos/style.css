@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 body {
@@ -14,15 +15,34 @@ body {
     grid-template-rows: auto 100vh auto;
 }
 
+
+          /*header*/
 .o-header {
     grid-area: header;
     background-color: aliceblue;
 }
 
+h1.cima {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+          /*header*/
+
+
 .o-aside {
     grid-area: aside;
     background-color: aliceblue;
+    padding-right: 30px;
+    padding-left: 30px;
 }
+
+h2.lado {
+    text-align: center;
+}
+
+
 
 .o-main {
     grid-area: main;

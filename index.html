@@ -9,17 +9,44 @@
 </head>
 <body>
         <header class="o-header">
-            <h1></h1>
+            <h1 class="cima">Bem vindo (a) ao melhor restaurante da cidade!</h1>
         </header>
 
         <aside class="o-aside">
-            <h2>Curdo de HTML5 com CSS3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa excepturi dignissimos enim corrupti nam ab eos repudiandae voluptatum rerum, distinctio eaque voluptatem! Quisquam rerum repellat explicabo suscipit natus nemo libero!</p>
+            <h2 class="lado">O que você procura?</h2>
+            <hr>
+            <h3>Drinks</h3>
+            <p>Água - R$ 3,50</p>
+            <p>Coca - Cola - R$ 6,00</p>
+            <p>Vinho - R$ 12,00</p>
+            <p>Suco - R$ 6,50</p>
+            <hr>
+            <h3>Pizzas</h3>
+            <p>Pizza de Calabresa - R$ 12,00</p>
+            <p>Pizza de 4 Queijos - R$ 16,00</p>
+            <p>Pizza de Chocolate - 13,00</p>
+            <hr>
+            <h3>Sobremesas</h3>
+            <p>Sorvete - R$ 4,50</p>
+            <p>Pudim - R$ 6,00</p>
+            <p>Açaí - R$ 5,00</p>
+            <hr>
         </aside>
 
         <main class="o-main">
-            <h2>Curso de JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime culpa sed blanditiis doloribus debitis et minus, commodi vel laboriosam autem a nisi illo expedita deserunt nostrum aut dolore vero.</p>
+            <h2>Faça o seu pedido:</h2>
+
+            <form>
+                <label for="pedido">Peça sua Pizza</label>
+                <input type="text" list="pizzas" id="pedido" name="pedido">
+
+                <datalist id="pizzas">
+                    <option value="Calabresa"></option>
+                    <option value="Chocolate"></option>
+                    <option value="Quatro Queijos"></option>
+                </datalist>
+            </form>
+            
         </main>
 
         <footer class="o-footer">
