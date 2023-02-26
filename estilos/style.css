@@ -16,16 +16,20 @@ body {
 
 .o-header {
     grid-area: header;
+    background-color: aliceblue;
 }
 
 .o-aside {
     grid-area: aside;
+    background-color: aliceblue;
 }
 
 .o-main {
     grid-area: main;
+    background-color: aliceblue;
 }
 
 .o-footer {
     grid-area: footer;
+    background-color: aliceblue;
 }
