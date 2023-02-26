@@ -20,6 +20,7 @@ body {
 .o-header {
     grid-area: header;
     background-color: aliceblue;
+    border-radius: 20px;
 }
 
 h1.cima {
@@ -36,10 +37,13 @@ h1.cima {
     background-color: aliceblue;
     padding-right: 30px;
     padding-left: 30px;
+    border-radius: 20px;
+    padding-top: 15px;
 }
 
 h2.lado {
     text-align: center;
+    border-radius: 20px;
 }
 
 
@@ -47,9 +51,13 @@ h2.lado {
 .o-main {
     grid-area: main;
     background-color: aliceblue;
+    padding-top: 50px;
+    border-radius: 20px;
+    
 }
 
 .o-footer {
     grid-area: footer;
     background-color: aliceblue;
+    border-radius: 20px;
 }
