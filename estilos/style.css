@@ -5,6 +5,10 @@
 
 body {
     background-color: black;
+    display: grid;
+    grid-template-areas: "main main main"
+    "side article article"
+    "footer footer footer";
 }
 
 main {
@@ -12,5 +16,4 @@ main {
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5 px black;
 }
