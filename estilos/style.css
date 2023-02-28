@@ -62,3 +62,13 @@ h2.lado {
     border-radius: 20px;
 }
 
+img {
+    float: right;
+    padding-right: 50px;
+}
+
+img.logotipo {
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
